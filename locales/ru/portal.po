@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 20:16+0000\n"
-"PO-Revision-Date: 2021-02-08 23:35+0000\n"
-"Last-Translator: allys <allys@live.ru>\n"
+"PO-Revision-Date: 2021-02-12 03:42+0000\n"
+"Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: Russian <http://weblate.iondv.com/projects/iondv-framework/"
 "portal/ru/>\n"
 "Language: ru\n"
@@ -81,25 +81,25 @@ msgstr ""
 
 #: view/default/templates/register.ejs:25 view/default/templates/login.ejs:16
 msgid "Login"
-msgstr ""
+msgstr "Логин"
 
 #: view/default/templates/register.ejs:33
 #: view/default/templates/register.ejs:38
 #: view/default/templates/register.ejs:48 view/default/templates/login.ejs:24
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: view/default/templates/register.ejs:43
 msgid "Repeat password"
-msgstr ""
+msgstr "Повторите пароль"
 
 #: view/default/templates/register.ejs:76 view/default/templates/login.ejs:36
 msgid "Sign up"
-msgstr ""
+msgstr "Зарегистрироваться"
 
 #: view/default/templates/register.ejs:78 view/default/templates/login.ejs:33
 msgid "Sign in"
-msgstr ""
+msgstr "Войти"
 
 #: view/default/templates/500.ejs:4
 msgid "Internal server error"
