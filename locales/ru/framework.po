@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 20:16+0000\n"
-"PO-Revision-Date: 2021-02-12 03:42+0000\n"
+"PO-Revision-Date: 2021-02-15 00:18+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: Russian <http://weblate.iondv.com/projects/iondv-framework/"
 "core/ru/>\n"
@@ -891,7 +891,7 @@ msgstr "Не удалось сохранить данные в файл атри
 
 #: strings/errors/data-repo.js:14
 msgid "Failed to load file attribute '%attr'."
-msgstr ""
+msgstr "Не удалось загрузить атрибут файла '%attr'."
 
 #: strings/errors/data-repo.js:15
 msgid "collection '%attr' is abscent in object %info."
