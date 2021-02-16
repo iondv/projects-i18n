@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 20:16+0000\n"
-"PO-Revision-Date: 2021-02-15 00:18+0000\n"
+"PO-Revision-Date: 2021-02-17 08:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
-"Language-Team: Russian <http://weblate.iondv.com/projects/iondv-framework/"
+"Language-Team: Russian <http://weblate.iondv.ru/projects/iondv-framework/"
 "core/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -124,7 +124,7 @@ msgstr "Роль %s[%s] зарегистрирована."
 #: lib/aclImport.js:46
 #, javascript-format
 msgid "Role %s permissions to resource %s granted."
-msgstr "Права доступа ролей %s для ресурса %s предоставлены."
+msgstr "Разрешения для ролей %s для ресурса %s предоставлены."
 
 #: lib/aclImport.js:82
 #, javascript-format
@@ -770,7 +770,7 @@ msgstr "Источник данных аутентификации не наст
 
 #: strings/errors/auth.js:6
 msgid "You dont have enough permissions to login."
-msgstr "У вас недостаточно прав для входа."
+msgstr "У вас недостаточно разрешений для входа."
 
 #: strings/errors/auth.js:7
 #, javascript-format
@@ -895,274 +895,282 @@ msgstr "Не удалось загрузить атрибут файла '%attr'
 
 #: strings/errors/data-repo.js:15
 msgid "collection '%attr' is abscent in object %info."
-msgstr ""
+msgstr "Коллекция '%attr' отсутствует в объекте %info."
 
 #: strings/errors/data-repo.js:16
 msgid "Error in meta-model of object '%info'."
-msgstr ""
+msgstr "Ошибка в метамодели объекта '%info'."
 
 #: strings/errors/data-repo.js:17
 #, javascript-format
 msgid "Using complex keys in operation '%oper' is not supported yet."
-msgstr ""
+msgstr "Использование сложных ключей в операции '%oper' пока не поддерживается."
 
 #: strings/errors/data-repo.js:18
 msgid "'%operation' action was not applied to object '%info'."
-msgstr ""
+msgstr "Действие '%operation' не было применено к объекту '%info'."
 
 #: strings/errors/data-repo.js:19
 msgid "Required attributes are not set for object %info."
-msgstr ""
+msgstr "Для объекта %info не установлены обязательные атрибуты."
 
 #: strings/errors/data-repo.js:20
 msgid "Key attribute value not set for object %info."
-msgstr ""
+msgstr "Не задано значение ключевого атрибута для объекта %info."
 
 #: strings/errors/data-repo.js:21
 #, javascript-format
 msgid "Attribute %backAttr not found for back reference %backRef."
-msgstr ""
+msgstr "Атрибут %backAttr не найден для обратной ссылки %backRef."
 
 #: strings/errors/data-repo.js:22
 msgid ""
 "Async operation performed when calculation the default value for attribute "
 "%info."
 msgstr ""
+"Асинхронная операция выполняется при вычислении значения по умолчанию для "
+"атрибута %info."
 
 #: strings/errors/data-repo.js:23
 msgid "Not enough permissions for action"
-msgstr ""
+msgstr "Недостаточно разрешений для выполнения действия"
 
 #: strings/errors/front-end.js:8
 msgid "Access level not enough for the action."
-msgstr ""
+msgstr "Недостаточный уровень доступа для выполнения действия."
 
 #: strings/errors/meta-repo.js:9
 msgid "Class %class not found in namespace %namespace."
-msgstr ""
+msgstr "Класс %class не найден в пространстве имен %namespace."
 
 #: strings/errors/meta-repo.js:10
 msgid "Attribute '%attr' not found in class '%class'."
-msgstr ""
+msgstr "Атрибут '%attr' не найден в классе '%class'."
 
 #: strings/errors/meta-repo.js:11
 msgid "View '%view' not found."
-msgstr ""
+msgstr "Представление '%view' не найдено."
 
 #: strings/errors/meta-repo.js:12 strings/errors/workflow.js:10
 msgid "Workflow '%workflow' not found."
-msgstr ""
+msgstr "Бизнес-процесс '%workflow' не найден."
 
 #: strings/errors/validation.js:9
 msgid "Invalid value assigned to attribute %class.%property."
-msgstr ""
+msgstr "Атрибуту присвоено недопустимое значение %class.%property."
 
 #: strings/errors/validation.js:10
 msgid ""
 "Attribute %class.%property value should be a number (fractional part should "
 "be separated with dot)."
 msgstr ""
+"Значение атрибута %class.%property должно быть числом (дробная часть должна "
+"быть отделена точкой)."
 
 #: strings/errors/validation.js:11
 msgid "Invalid date value assigned to attribute %class.%property."
-msgstr ""
+msgstr "Недопустимое значение даты присвоено атрибуту %class.%property."
 
 #: strings/errors/validation.js:14
 msgid "Attribute %class.%property value should be an integer number."
-msgstr ""
+msgstr "Значение атрибута %class.%property должно быть целым числом."
 
 #: strings/errors/data-source.js:9
 msgid "Uniqueness of key '%key' of dataset '%table' is violated"
-msgstr ""
+msgstr "Нарушено уникальность ключа '%key' набора данных '%table'"
 
 #: strings/errors/data-source.js:10
 msgid "Error in query."
-msgstr ""
+msgstr "Ошибка в запросе."
 
 #: strings/errors/data-source.js:11
 msgid "Operation '%oper' was not applied to '%table' dataset."
-msgstr ""
+msgstr "Операция '%oper' не была применена к набору данных '%table'."
 
 #: strings/errors/workflow.js:9
 msgid "Access level not enough to perform workflow transition '%trans'"
 msgstr ""
+"Уровень доступа недостаточен для выполнения перехода бизнес-процесса '%trans'"
 
 #: strings/errors/workflow.js:11
 msgid "Transition '%trans' failed."
-msgstr ""
+msgstr "Не удалось выполнить переход '%trans'."
 
 #: strings/errors/workflow.js:12
 msgid "Status '%state' of workflow '%workflow' not found."
-msgstr ""
+msgstr "Статус '%state' бизнес-процесса '%workflow' не найден."
 
 #: strings/errors/workflow.js:14
 msgid ""
 "Object '%info' does not satisfy conditions of final state '%state' of "
 "workflow '%workflow'."
 msgstr ""
+"Объект '%info' не удовлетворяет условиям конечного состояния '%state' бизнес-"
+"процесса '%workflow'."
 
 #: strings/errors/workflow.js:15
 msgid "Object '%info' is not in workflow '%workflow'."
-msgstr ""
+msgstr "Объект'%info' отсутствует в бизнес-процессе '%workflow'."
 
 #: strings/errors/workflow.js:16
 msgid "Transition '%trans' of workflow '%workflow' is not allowed."
-msgstr ""
+msgstr "Переход '%trans' бизнес-процесса '%workflow' не допускается."
 
 #: strings/errors/workflow.js:17
 msgid "Transition '%trans' of workflow '%workflow' not found."
-msgstr ""
+msgstr "Переход '%trans' бизнес-процесса '%workflow' не найден."
 
 #: strings/errors/workflow.js:18
 msgid "Object is already in workflow '%workflow'"
-msgstr ""
+msgstr "Объект уже находится в бизнес-процессе '%workflow'"
 
 #: strings/errors/conditions.js:5
 msgid "Condition %condition is not applicable to attribute %class.%attr."
-msgstr ""
+msgstr "Условие %condition не применимо к атрибуту %class.%attr."
 
 #: strings/errors/conditions.js:6
 msgid "Attribute %class.%attr specified for condition is not found."
-msgstr ""
+msgstr "Атрибут %class.%attr , указанный для условия, не найден."
 
 #: strings/errors/conditions.js:7
 msgid ""
 "Aggregation operation specification is invalid - class and attribute are not "
 "specified."
 msgstr ""
+"Спецификация операции агрегации недопустима - класс и атрибут не указаны."
 
 #: strings/errors/conditions.js:8
 msgid "Invalid operation type"
-msgstr ""
+msgstr "Недопустимый тип операции"
 
 #: strings/errors/conditions.js:9
 msgid "Invalid condition type"
-msgstr ""
+msgstr "Недопустимый тип условия"
 
 #: strings/errors/conditions.js:10
 msgid "Operation arguments are not specified"
-msgstr ""
+msgstr "Аргументы операции не указаны"
 
 #: strings/errors/file-storage.js:9
 msgid "Invalid data format."
-msgstr ""
+msgstr "Недопустимый формат данных."
 
 #: strings/errors/file-storage.js:10
 #, javascript-format
 msgid "Directory '%dir' not found."
-msgstr ""
+msgstr "Каталог '%dir' не найден."
 
 #: strings/errors/file-storage.js:11
 #, javascript-format
 msgid "File '%file' not found."
-msgstr ""
+msgstr "Файл '%file' не найден."
 
 #: strings/frontend.js:4
 #, javascript-format
 msgid "Field %field value is required"
-msgstr ""
+msgstr "Значение поля %field обязательно"
 
 #: bin/schedule.js:40
 msgid "Schedule started"
-msgstr ""
+msgstr "Расписание запущено"
 
 #: bin/import.js:61
 msgid "Model import successfully done"
-msgstr ""
+msgstr "Импорт модели успешно выполнен"
 
 #: bin/job.js:30 bin/job-runner.js:140
 msgid "Job name not specified"
-msgstr ""
+msgstr "Не указано название задания"
 
 #: bin/job.js:61
 #, javascript-format
 msgid "Worker component not specified for job %s"
-msgstr ""
+msgstr "Не указан рабочий компонент для задания %s"
 
 #: bin/job.js:65 bin/job-runner.js:223
 #, javascript-format
 msgid "Job %s not found"
-msgstr ""
+msgstr "Задание %s не найдено"
 
 #: bin/job.js:72
 #, javascript-format
 msgid "Worker component of job %s not found"
-msgstr ""
+msgstr "Рабочий компонент задания %s не найден"
 
 #: bin/job.js:75
 #, javascript-format
 msgid "Worker component of job %s has no launch method"
-msgstr ""
+msgstr "Рабочий компонент задания %s не имеет метода запуска"
 
 #: bin/job.js:77
 #, javascript-format
 msgid "Job %s started"
-msgstr ""
+msgstr "Задание %s запущено"
 
 #: bin/job.js:91
 #, javascript-format
 msgid "Job %s done"
-msgstr ""
+msgstr "Задание %s выполнено"
 
 #: bin/setup.js:62
 msgid "Setup complete."
-msgstr ""
+msgstr "Настройка завершена."
 
 #: bin/export.js:89
 msgid "Export successfully done."
-msgstr ""
+msgstr "Экспорт успешно завершен."
 
 #: bin/adduser.js:74
 msgid "User successfully created."
-msgstr ""
+msgstr "Пользователь успешно создан."
 
 #: bin/import-data.js:30
 msgid "Data integrity checks are ignored"
-msgstr ""
+msgstr "Проверки целостности данных игнорируются"
 
 #: bin/import-data.js:69
 msgid "Import is successfully done."
-msgstr ""
+msgstr "Импорт успешно выполнен."
 
 #: bin/job-runner.js:164
 #, javascript-format
 msgid "Worker component for job %s is not specified"
-msgstr ""
+msgstr "Рабочий компонент для задания %s не указан"
 
 #: bin/job-runner.js:168
 #, javascript-format
 msgid "Parameters are not specified for job %s"
-msgstr ""
+msgstr "Не указаны параметры для задания %s"
 
 #: bin/job-runner.js:204
 #, javascript-format
 msgid "%s: Job %s was interrupted by timeout"
-msgstr ""
+msgstr "%s: Задание %s было прервано по таймауту"
 
 #: bin/job-runner.js:220
 #, javascript-format
 msgid "%s: Job %s started"
-msgstr ""
+msgstr "%s: Задание %s запущено"
 
 #: bin/bg.js:68
 #, javascript-format
 msgid "Worker component not found for background job %s"
-msgstr ""
+msgstr "Рабочий компонент не найден для фонового задания %s"
 
 #: bin/bg.js:71
 #, javascript-format
 msgid "Worker component of background job %s has no launch method"
-msgstr ""
+msgstr "Рабочий компонент фонового задания %s не имеет метода запуска"
 
 #: bin/bg.js:73
 #, javascript-format
 msgid "%s: Start of background job %s"
-msgstr ""
+msgstr "%s: Запуск фонового задания %s"
 
 #: bin/bg.js:80
 #, javascript-format
 msgid "%s: Background job %s done"
-msgstr ""
+msgstr "%s: Фоновое задание %s выполнено"
 
 #: bin/acl.js:65
 msgid "No roles specified!"
@@ -1170,20 +1178,20 @@ msgstr "Не задано ни одной роли!"
 
 #: bin/acl.js:70
 msgid "No users nor resources nor permissions are specified!"
-msgstr ""
+msgstr "Ни пользователей, ни ресурсов, ни разрешений не указано!"
 
 #: bin/acl.js:109
 msgid "Permissions granted"
-msgstr ""
+msgstr "Разрешения предоставлены"
 
 #: view/default/templates/403.ejs:4 view/default/templates/403.ejs:19
 msgid "Access denied"
-msgstr ""
+msgstr "В доступе отказано"
 
 #: view/default/templates/403.ejs:23
 msgid "Sorry, but access to this resource is prohibited"
-msgstr ""
+msgstr "Извините, но доступ к этому ресурсу запрещен"
 
 #: view/default/templates/403.ejs:28
 msgid "Back to home"
-msgstr ""
+msgstr "Вернуться на главную"
