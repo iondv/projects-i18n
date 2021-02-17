@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 20:16+0000\n"
-"PO-Revision-Date: 2021-02-12 03:42+0000\n"
+"PO-Revision-Date: 2021-02-17 08:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
-"Language-Team: Russian <http://weblate.iondv.com/projects/iondv-framework/"
+"Language-Team: Russian <http://weblate.iondv.ru/projects/iondv-framework/"
 "ionadmin/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: backend/error.js:13
 msgid "Internal server error."
-msgstr ""
+msgstr "Внутренняя ошибка сервера."
 
 #: backend/backupProvider.js:70
 #, javascript-format
@@ -164,7 +164,7 @@ msgstr ""
 
 #: index.js:63 view/templates/errors/403.ejs:8
 msgid "Access denied"
-msgstr ""
+msgstr "В доступе отказано"
 
 #: index.js:64
 msgid "Resource not found"
@@ -258,7 +258,7 @@ msgstr ""
 #: view/templates/backup/db.ejs:109 view/templates/crud/list-tools.ejs:12
 #: view/templates/changelog/index.ejs:45
 msgid "Create"
-msgstr ""
+msgstr "Создать"
 
 #: view/templates/notifications/index.ejs:91
 #: view/templates/schedule/index.ejs:30
@@ -266,7 +266,7 @@ msgstr ""
 #: view/templates/attrs/_dt-object.ejs:11
 #: view/templates/crud/list-tools.ejs:13 view/templates/changelog/index.ejs:46
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
 #: view/templates/notifications/index.ejs:94
 #: view/templates/schedule/index.ejs:31 view/templates/backup/db.ejs:19
@@ -279,7 +279,7 @@ msgstr ""
 #: view/templates/attrs/_nested-tab.ejs:11
 #: view/templates/crud/list-tools.ejs:16 view/templates/changelog/index.ejs:47
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: view/templates/notifications/index.ejs:100
 #: view/templates/activity/index.ejs:47 view/templates/changelog/index.ejs:75
@@ -339,7 +339,7 @@ msgstr ""
 #: view/templates/profiling/slow-query/index.ejs:56
 #: view/templates/crud/object.ejs:6
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: view/templates/schedule/job.ejs:33
 msgid "Cancel"
@@ -595,7 +595,7 @@ msgstr ""
 #: view/templates/attrs/_nested.ejs:5 view/templates/attrs/_dt-object.ejs:10
 #: view/templates/attrs/_nested-tab.ejs:10
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #: view/templates/attrs/_date.ejs:7 view/templates/changelog/index.ejs:100
 #: view/templates/authlog/index.ejs:77 view/templates/authlog/index.ejs:201
@@ -634,7 +634,7 @@ msgstr ""
 
 #: view/templates/crud/list-tools.ejs:9
 msgid "Select"
-msgstr ""
+msgstr "Выбрать"
 
 #: view/templates/layouts/security-menu.ejs:3
 msgid "Security"
@@ -658,7 +658,7 @@ msgstr ""
 
 #: view/templates/layouts/header.ejs:41
 msgid "Exit"
-msgstr ""
+msgstr "Выход"
 
 #: view/templates/layouts/_menu-notices.ejs:2
 #: view/templates/layouts/_menu-messages.ejs:2
@@ -909,7 +909,7 @@ msgstr ""
 
 #: view/templates/errors/404.ejs:8
 msgid "Page not found"
-msgstr ""
+msgstr "Страница не найдена"
 
 #: view/templates/errors/404.ejs:10
 msgid "We could not find the page"
