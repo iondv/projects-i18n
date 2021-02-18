@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-12 20:16+0000\n"
+"POT-Creation-Date: 2021-02-18 02:22+0000\n"
 "PO-Revision-Date: 2021-02-17 08:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: Russian <http://weblate.iondv.ru/projects/iondv-framework/"
@@ -67,19 +67,17 @@ msgstr "Файл не найден в удаленном хранилище."
 msgid "Internal server error."
 msgstr "Внутренняя ошибка сервера."
 
-#: backend/viewmodels.js:79 backend/viewmodels.js:133
-#: backend/viewmodels.js:154 backend/viewmodels.js:270
-#: dispatcher/controllers/list.js:30 strings/templates-default.js:136
-#: strings/templates-default.js:184
+#: backend/viewmodels.js:79 backend/viewmodels.js:133 backend/viewmodels.js:154
+#: backend/viewmodels.js:270 dispatcher/controllers/list.js:30
+#: strings/templates-default.js:136 strings/templates-default.js:184
 #: view/default/templates/view/collection.ejs:164
 msgid "Create"
 msgstr "Создать"
 
-#: backend/viewmodels.js:91 backend/viewmodels.js:137
-#: backend/viewmodels.js:158 dispatcher/controllers/list.js:35
-#: strings/frontend-scripts.js:96 strings/templates-default.js:23
-#: strings/templates-default.js:137 strings/templates-default.js:156
-#: strings/templates-default.js:188
+#: backend/viewmodels.js:91 backend/viewmodels.js:137 backend/viewmodels.js:158
+#: dispatcher/controllers/list.js:35 strings/frontend-scripts.js:96
+#: strings/templates-default.js:23 strings/templates-default.js:137
+#: strings/templates-default.js:156 strings/templates-default.js:188
 #: view/default/templates/view/collection.ejs:167
 msgid "Edit"
 msgstr "Редактировать"
