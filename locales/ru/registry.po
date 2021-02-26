@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-12 20:16+0000\n"
+"POT-Creation-Date: 2021-02-26 20:17+0000\n"
 "PO-Revision-Date: 2021-02-19 20:17+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: Russian <http://weblate.iondv.ru/projects/iondv-framework/"
@@ -858,8 +858,8 @@ msgid ""
 "Object was opened directly, there is no source list. Go to <a "
 "href='/'><b>default page</b></a>."
 msgstr ""
-"Объект был открыт напрямую, списка источников нет. Перейдите на <a href='/"
-"'><b>страницу по умолчанию</b></a>."
+"Объект был открыт напрямую, списка источников нет. Перейдите на <a "
+"href='/'><b>страницу по умолчанию</b></a>."
 
 #: strings/frontend-scripts.js:144
 msgid "Unsaved changes will be lost. Refresh?"
@@ -895,7 +895,8 @@ msgstr "Действие подписано!"
 
 #: strings/frontend-scripts.js:152
 msgid "Crypto Pro failed to sign data. Check license please."
-msgstr "Crypto Pro не удалось подписать данные. Пожалуйста, проверьте лицензию."
+msgstr ""
+"Crypto Pro не удалось подписать данные. Пожалуйста, проверьте лицензию."
 
 #: strings/frontend-scripts.js:153
 msgid "Error"
@@ -1670,8 +1671,8 @@ msgstr ""
 "значение строки<br>Чтобы указать ссылочное значение, можно использовать "
 "разыменование следующим образом `Person`.`Name` = 'Ivan'<br>Несколько "
 "значений можно указать с помощью логических операторов<br><li><ul>и - "
-"соответствие всем значениям</ul><ul>или - соответствие какому-либо "
-"значению</ul></li>"
+"соответствие всем значениям</ul><ul>или - соответствие какому-либо значению</"
+"ul></li>"
 
 #: strings/errors/web-errors.js:10
 msgid ""
