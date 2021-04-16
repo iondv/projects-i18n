@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-02 20:16+0000\n"
+"POT-Creation-Date: 2021-04-16 20:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,7 +66,7 @@ msgstr ""
 
 #: backend/viewmodels.js:79 backend/viewmodels.js:133 backend/viewmodels.js:154
 #: backend/viewmodels.js:270 dispatcher/controllers/list.js:30
-#: strings/templates-default.js:136 strings/templates-default.js:184
+#: strings/templates-default.js:136 strings/templates-default.js:185
 #: ./view/default/templates/view/collection.ejs:164
 msgid "Create"
 msgstr ""
@@ -74,7 +74,7 @@ msgstr ""
 #: backend/viewmodels.js:91 backend/viewmodels.js:137 backend/viewmodels.js:158
 #: dispatcher/controllers/list.js:35 strings/frontend-scripts.js:96
 #: strings/templates-default.js:23 strings/templates-default.js:137
-#: strings/templates-default.js:156 strings/templates-default.js:188
+#: strings/templates-default.js:156 strings/templates-default.js:189
 #: ./view/default/templates/view/collection.ejs:167
 msgid "Edit"
 msgstr ""
@@ -94,8 +94,8 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: backend/viewmodels.js:150 strings/templates-default.js:169
-#: strings/templates-default.js:186
+#: backend/viewmodels.js:150 strings/templates-default.js:170
+#: strings/templates-default.js:187
 msgid "Select"
 msgstr ""
 
@@ -105,8 +105,8 @@ msgstr ""
 
 #: backend/viewmodels.js:240 strings/templates-default.js:14
 #: strings/templates-default.js:24 strings/templates-default.js:82
-#: strings/templates-default.js:154 strings/templates-default.js:189
-#: strings/templates-default.js:200
+#: strings/templates-default.js:154 strings/templates-default.js:190
+#: strings/templates-default.js:201
 msgid "Save"
 msgstr ""
 
@@ -291,10 +291,6 @@ msgstr ""
 
 #: dispatcher/controllers/404.js:23 strings/templates-default.js:107
 msgid "Page not found"
-msgstr ""
-
-#: dispatcher/controllers/dashboard.js:24
-msgid "Dashboard"
 msgstr ""
 
 #: dispatcher/controllers/handle.js:42
@@ -872,252 +868,256 @@ msgstr ""
 msgid "Workflow"
 msgstr ""
 
-#: strings/frontend-scripts.js:148 strings/frontend-scripts.js:196
+#: strings/frontend-scripts.js:148
+msgid "Close without saving?"
+msgstr ""
+
+#: strings/frontend-scripts.js:149 strings/frontend-scripts.js:197
 msgid "Are you sure?"
 msgstr ""
 
-#: strings/frontend-scripts.js:149 strings/frontend-scripts.js:195
+#: strings/frontend-scripts.js:150 strings/frontend-scripts.js:196
 msgid "Delete object?"
 msgstr ""
 
-#: strings/frontend-scripts.js:150
+#: strings/frontend-scripts.js:151
 msgid "Signing error"
 msgstr ""
 
-#: strings/frontend-scripts.js:151
+#: strings/frontend-scripts.js:152
 msgid "Action signed!"
 msgstr ""
 
-#: strings/frontend-scripts.js:152
+#: strings/frontend-scripts.js:153
 msgid "Crypto Pro failed to sign data. Check license please."
 msgstr ""
 
-#: strings/frontend-scripts.js:153
+#: strings/frontend-scripts.js:154
 msgid "Error"
 msgstr ""
 
-#: strings/frontend-scripts.js:154
+#: strings/frontend-scripts.js:155
 msgid "Done!"
 msgstr ""
 
-#: strings/frontend-scripts.js:155
+#: strings/frontend-scripts.js:156
 msgid "Object created"
 msgstr ""
 
-#: strings/frontend-scripts.js:156
+#: strings/frontend-scripts.js:157
 msgid "Field is required"
 msgstr ""
 
-#: strings/frontend-scripts.js:157
+#: strings/frontend-scripts.js:158
 msgid "Fix errors in form"
 msgstr ""
 
-#: strings/frontend-scripts.js:158
+#: strings/frontend-scripts.js:159
 msgid "<b>Object is used by user <i>%name</i>. Form is read only mode.</b><br>"
 msgstr ""
 
-#: strings/frontend-scripts.js:159
+#: strings/frontend-scripts.js:160
 msgid "Signed data was changed."
 msgstr ""
 
-#: strings/frontend-scripts.js:160
+#: strings/frontend-scripts.js:161
 msgid "Check sign"
 msgstr ""
 
-#: strings/frontend-scripts.js:161 strings/templates-default.js:170
+#: strings/frontend-scripts.js:162 strings/templates-default.js:171
 msgid "Subject"
 msgstr ""
 
-#: strings/frontend-scripts.js:162 strings/templates-default.js:171
+#: strings/frontend-scripts.js:163 strings/templates-default.js:172
 msgid "Provider"
 msgstr ""
 
-#: strings/frontend-scripts.js:163 strings/templates-default.js:172
+#: strings/frontend-scripts.js:164 strings/templates-default.js:173
 msgid "Valid from"
 msgstr ""
 
-#: strings/frontend-scripts.js:164 strings/templates-default.js:173
+#: strings/frontend-scripts.js:165 strings/templates-default.js:174
 msgid "Valid to"
 msgstr ""
 
-#: strings/frontend-scripts.js:165 strings/templates-default.js:174
+#: strings/frontend-scripts.js:166 strings/templates-default.js:175
 msgid "Serial"
 msgstr ""
 
-#: strings/frontend-scripts.js:166
+#: strings/frontend-scripts.js:167
 msgid "Signature is invalid!"
 msgstr ""
 
-#: strings/frontend-scripts.js:167
+#: strings/frontend-scripts.js:168
 msgid "Signature is valid"
 msgstr ""
 
-#: strings/frontend-scripts.js:168
+#: strings/frontend-scripts.js:169
 msgid "CryptoPRO plugin not installed"
 msgstr ""
 
-#: strings/frontend-scripts.js:169
+#: strings/frontend-scripts.js:170
 msgid "Inaproperiate value (does not match input mask)"
 msgstr ""
 
-#: strings/frontend-scripts.js:170
+#: strings/frontend-scripts.js:171
 msgid "Uploading to server..."
 msgstr ""
 
-#: strings/frontend-scripts.js:171
+#: strings/frontend-scripts.js:172
 msgid "Uploaded"
 msgstr ""
 
-#: strings/frontend-scripts.js:172
+#: strings/frontend-scripts.js:173
 msgid "File uploading error"
 msgstr ""
 
-#: strings/frontend-scripts.js:173
+#: strings/frontend-scripts.js:174
 msgid "Delete uploaded file?"
 msgstr ""
 
-#: strings/frontend-scripts.js:174
+#: strings/frontend-scripts.js:175
 msgid "Delete object from reference?"
 msgstr ""
 
-#: strings/frontend-scripts.js:175
+#: strings/frontend-scripts.js:176
 msgid "No data"
 msgstr ""
 
-#: strings/frontend-scripts.js:176
+#: strings/frontend-scripts.js:177
 msgid "No results found for current clarification conditions."
 msgstr ""
 
-#: strings/frontend-scripts.js:177
+#: strings/frontend-scripts.js:178
 msgid "RefShortView: Unknown attribute type: %type"
 msgstr ""
 
-#: strings/frontend-scripts.js:178
+#: strings/frontend-scripts.js:179
 msgid "Schedule not filled."
 msgstr ""
 
-#: strings/frontend-scripts.js:179
+#: strings/frontend-scripts.js:180
 msgid " (break %time)"
 msgstr ""
 
-#: strings/frontend-scripts.js:180
+#: strings/frontend-scripts.js:181
 msgid "Week schedule"
 msgstr ""
 
-#: strings/frontend-scripts.js:181
+#: strings/frontend-scripts.js:182
 msgid " from %h1:%m1 to %h2:%m2"
 msgstr ""
 
-#: strings/frontend-scripts.js:182 strings/templates-default.js:141
-#: strings/templates-default.js:197
+#: strings/frontend-scripts.js:183 strings/templates-default.js:141
+#: strings/templates-default.js:198
 msgid "Select filter..."
 msgstr ""
 
-#: strings/frontend-scripts.js:183
+#: strings/frontend-scripts.js:184
 msgid "= equal"
 msgstr ""
 
-#: strings/frontend-scripts.js:184
+#: strings/frontend-scripts.js:185
 msgid "before"
 msgstr ""
 
-#: strings/frontend-scripts.js:185
+#: strings/frontend-scripts.js:186
 msgid "less"
 msgstr ""
 
-#: strings/frontend-scripts.js:186
+#: strings/frontend-scripts.js:187
 msgid "after"
 msgstr ""
 
-#: strings/frontend-scripts.js:187
+#: strings/frontend-scripts.js:188
 msgid "more"
 msgstr ""
 
-#: strings/frontend-scripts.js:188
+#: strings/frontend-scripts.js:189
 msgid " or equal"
 msgstr ""
 
-#: strings/frontend-scripts.js:189
+#: strings/frontend-scripts.js:190
 msgid "Filter"
 msgstr ""
 
-#: strings/frontend-scripts.js:190
+#: strings/frontend-scripts.js:191
 msgid "Required field"
 msgstr ""
 
-#: strings/frontend-scripts.js:191
+#: strings/frontend-scripts.js:192
 msgid "Value does not match input mask"
 msgstr ""
 
-#: strings/frontend-scripts.js:192
+#: strings/frontend-scripts.js:193
 msgid "Delete selected object from reference?"
 msgstr ""
 
-#: strings/frontend-scripts.js:193
+#: strings/frontend-scripts.js:194
 msgid "Remove object from collection?"
 msgstr ""
 
-#: strings/frontend-scripts.js:194
+#: strings/frontend-scripts.js:195
 msgid "Error when removing object."
 msgstr ""
 
-#: strings/frontend-scripts.js:197
+#: strings/frontend-scripts.js:198
 msgid "List initialization error."
 msgstr ""
 
-#: strings/frontend-scripts.js:198
+#: strings/frontend-scripts.js:199
 msgid "Access denied!"
 msgstr ""
 
-#: strings/frontend-scripts.js:199
+#: strings/frontend-scripts.js:200
 msgid "Data fetch error."
 msgstr ""
 
-#: strings/frontend-scripts.js:200
+#: strings/frontend-scripts.js:201
 msgid ""
 "<p>Object selected by reference '%cap' is linked to <a href='%href'>another "
 "object</a>.</p><p>Are you sure, you want to break this link?</p>"
 msgstr ""
 
-#: strings/frontend-scripts.js:201
+#: strings/frontend-scripts.js:202
 msgid ""
 "<p>Object selected by reference '%cap' is linked to <a "
 "href='%href'>%name</a>.</p><p>Are you sure, you want to break this link?</p>"
 msgstr ""
 
-#: strings/frontend-scripts.js:202
+#: strings/frontend-scripts.js:203
 msgid "Warning!"
 msgstr ""
 
-#: strings/frontend-scripts.js:203
+#: strings/frontend-scripts.js:204
 msgid "Yes"
 msgstr ""
 
-#: strings/frontend-scripts.js:204
+#: strings/frontend-scripts.js:205
 msgid "No"
 msgstr ""
 
-#: strings/frontend-scripts.js:205
+#: strings/frontend-scripts.js:206
 msgid "Error on object fetch"
 msgstr ""
 
-#: strings/frontend-scripts.js:206
+#: strings/frontend-scripts.js:207
 msgid "Error of object sorting"
 msgstr ""
 
-#: strings/frontend-scripts.js:207
+#: strings/frontend-scripts.js:208
 msgid "Error og object deletion"
 msgstr ""
 
-#: strings/frontend-scripts.js:208
+#: strings/frontend-scripts.js:209
 msgid "Remove selected objects from collection?"
 msgstr ""
 
-#: strings/frontend-scripts.js:209
+#: strings/frontend-scripts.js:210
 msgid "Delete selected objects?"
 msgstr ""
 
-#: strings/frontend-scripts.js:210
+#: strings/frontend-scripts.js:211
 #, javascript-format
 msgid "Collection initialization error: %cap"
 msgstr ""
@@ -1179,8 +1179,8 @@ msgid "Down"
 msgstr ""
 
 #: strings/templates-default.js:25 strings/templates-default.js:57
-#: strings/templates-default.js:168 strings/templates-default.js:183
-#: strings/templates-default.js:190
+#: strings/templates-default.js:169 strings/templates-default.js:184
+#: strings/templates-default.js:191
 msgid "Cancel"
 msgstr ""
 
@@ -1405,9 +1405,9 @@ msgstr ""
 
 #: strings/templates-default.js:104 strings/templates-default.js:129
 #: strings/templates-default.js:132 strings/templates-default.js:139
-#: strings/templates-default.js:162 strings/templates-default.js:175
-#: strings/templates-default.js:177 strings/templates-default.js:187
-#: strings/templates-default.js:193
+#: strings/templates-default.js:162 strings/templates-default.js:176
+#: strings/templates-default.js:178 strings/templates-default.js:188
+#: strings/templates-default.js:194
 #: ./view/default/templates/view/collection.ejs:173
 #: ./view/default/templates/view/list.ejs:161
 #: ./view/default/templates/attrs/_calendar.ejs:42
@@ -1497,7 +1497,7 @@ msgid "Object change log"
 msgstr ""
 
 #: strings/templates-default.js:133 strings/templates-default.js:140
-#: strings/templates-default.js:178 strings/templates-default.js:194
+#: strings/templates-default.js:179 strings/templates-default.js:195
 #: ./view/default/templates/view/list.ejs:163
 #: ./view/default/templates/attrs/_dt-object-list.ejs:221
 msgid "Refresh"
@@ -1507,15 +1507,15 @@ msgstr ""
 msgid "Select one object for editiing."
 msgstr ""
 
-#: strings/templates-default.js:142 strings/templates-default.js:203
+#: strings/templates-default.js:142 strings/templates-default.js:204
 msgid "Create filter"
 msgstr ""
 
-#: strings/templates-default.js:143 strings/templates-default.js:204
+#: strings/templates-default.js:143 strings/templates-default.js:205
 msgid "Edit filter"
 msgstr ""
 
-#: strings/templates-default.js:144 strings/templates-default.js:205
+#: strings/templates-default.js:144 strings/templates-default.js:206
 msgid "Reset filter"
 msgstr ""
 
@@ -1539,7 +1539,7 @@ msgstr ""
 msgid "Add condition"
 msgstr ""
 
-#: strings/templates-default.js:150 strings/templates-default.js:198
+#: strings/templates-default.js:150 strings/templates-default.js:199
 msgid "Apply filter"
 msgstr ""
 
@@ -1555,7 +1555,7 @@ msgstr ""
 msgid "Save filter"
 msgstr ""
 
-#: strings/templates-default.js:155 strings/templates-default.js:199
+#: strings/templates-default.js:155 strings/templates-default.js:200
 msgid "Delete filter"
 msgstr ""
 
@@ -1580,72 +1580,76 @@ msgid "Failed to start export!"
 msgstr ""
 
 #: strings/templates-default.js:164
-msgid "Creation of object for reference '%prop' of object '%item'"
+msgid "Dashboard"
 msgstr ""
 
 #: strings/templates-default.js:165
-msgid "Creation of object in collection '%prop' of object '%item'"
+msgid "Creation of object for reference '%prop' of object '%item'"
 msgstr ""
 
 #: strings/templates-default.js:166
-msgid "Select certificate for signing"
+msgid "Creation of object in collection '%prop' of object '%item'"
 msgstr ""
 
 #: strings/templates-default.js:167
+msgid "Select certificate for signing"
+msgstr ""
+
+#: strings/templates-default.js:168
 msgid "View certificate info"
 msgstr ""
 
-#: strings/templates-default.js:176
+#: strings/templates-default.js:177
 msgid "Create more"
 msgstr ""
 
-#: strings/templates-default.js:179
+#: strings/templates-default.js:180
 msgid "Changelog"
 msgstr ""
 
-#: strings/templates-default.js:180
+#: strings/templates-default.js:181
 msgid "Sign status"
 msgstr ""
 
-#: strings/templates-default.js:181
+#: strings/templates-default.js:182
 msgid "Confirm your actions"
 msgstr ""
 
-#: strings/templates-default.js:182
+#: strings/templates-default.js:183
 msgid "Continue"
 msgstr ""
 
-#: strings/templates-default.js:185
+#: strings/templates-default.js:186
 msgid "Submit"
 msgstr ""
 
-#: strings/templates-default.js:191
+#: strings/templates-default.js:192
 msgid "Attribute '%prop' of object '%item' value selection"
 msgstr ""
 
-#: strings/templates-default.js:192
+#: strings/templates-default.js:193
 #: ./view/default/templates/attrs/_dt-object-list.ejs:193
 #: ./view/default/templates/attrs/_reference_footer.ejs:65
 msgid "View"
 msgstr ""
 
-#: strings/templates-default.js:195
+#: strings/templates-default.js:196
 msgid "Query syntax"
 msgstr ""
 
-#: strings/templates-default.js:196
+#: strings/templates-default.js:197
 msgid "List filter"
 msgstr ""
 
-#: strings/templates-default.js:201
+#: strings/templates-default.js:202
 msgid "For all classes"
 msgstr ""
 
-#: strings/templates-default.js:202
+#: strings/templates-default.js:203
 msgid "Enter filter name..."
 msgstr ""
 
-#: strings/templates-default.js:206
+#: strings/templates-default.js:207
 msgid ""
 "Create filter by entering query string as follows:<br>`Name` = 'Ivan', "
 "where `Name` is attribute name (selected from dropdown list) and 'Ivan' is "
